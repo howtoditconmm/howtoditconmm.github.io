@@ -1,10 +1,10 @@
-name: ShareX
-title: ShareX - The best free and open source screenshot tool for Windows
-description: ShareX is a free and open source program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from.
-url: https://getsharex.com
-author: ShareX Team
-github: https://github.com/ShareX/ShareX
-twitter: ShareX
+name: Kizspy
+title: Kizspy - The best screenshot tool for Windows
+description: Kizspy is a program that lets you capture or record any area of your screen and share it with a single press of a key. It also allows uploading images, text or other types of files to many supported destinations you can choose from.
+url: https://kizspy.github.io
+author: Kizspy Team
+github: https://github.com/kizspy
+twitter: kizspy
 googleAnalyticsId: UA-40712139-3
 
 encoding: utf-8
