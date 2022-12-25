@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-md">
     <div class="container {% unless page.title %}container-home{% endunless %}">
-        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar"
+            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
             <span>
                 <i class="fa-solid fa-bars"></i>
             </span>
@@ -8,8 +9,10 @@
 
         <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav nav-main mr-auto">
-                <li class="nav-item{% unless page.title %} active{% endunless %}"><a class="nav-link" href="/">Home</a></li>
-                <li class="nav-item{% if page.title == 'Changelog' %} active{% endif %}"><a class="nav-link" href="/changelog">Changelog</a></li>
+                <li class="nav-item{% unless page.title %} active{% endunless %}"><a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item{% if page.title == 'Changelog' %} active{% endif %}"><a class="nav-link"
+                        href="/changelog">Changelog</a></li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Docs</a>
                     <div class="dropdown-menu">
@@ -24,11 +27,16 @@
                     </div>
                 </li>
             </ul>
-
+            <ul class="navbar-nav nav-main">
+                <li class="nav-item"><a class="nav-link" href="">Login</a></li>
+                <li class="nav-item"><a class="nav-link" href="">Register</a></li>
+            </ul>
             <ul class="navbar-nav nav-links">
-                <li class="nav-item"><a class="nav-link" href="https://t.me/{{ site.telegram }}" data-toggle="tooltip" data-placement="bottom" title="Telegram">
+                <li class="nav-item"><a class="nav-link" href="https://t.me/{{ site.telegram }}" data-toggle="tooltip"
+                        data-placement="bottom" title="Telegram">
                         <i class="fab fa-telegram fa-fw"></i></a></li>
             </ul>
+
         </div>
     </div>
 </nav>
