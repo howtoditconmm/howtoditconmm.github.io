@@ -1,3 +1,3 @@
-Website of ShareX
+Website of Kizspy
 
-https://getsharex.com
+https://Kizspy.one
