@@ -9,7 +9,7 @@
   arguments: '"$input" --ext=.png --force --skip-if-larger --speed 3 --strip'
   link: https://pngquant.org
 
-- name: Compress PNG file lossless using OptiPNGs
+- name: Compress PNG file lossless using OptiPNG
   filename: optipng.exe
   arguments: -o2 -strip all "$input"
   link: http://optipng.sourceforge.net
